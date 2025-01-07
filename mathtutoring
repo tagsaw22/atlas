@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Math Tutoring</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Atlas Math Tutoring</h1>
+            <nav class="flex space-x-4">
+                <a href="#home" class="hover:underline">Home</a>
+                <a href="#about" class="hover:underline">About</a>
+                <a href="#services" class="hover:underline">Services</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="bg-white py-20 text-center">
+            <h2 class="text-4xl font-bold mb-4">Excel in Math with Expert Guidance</h2>
+            <p class="text-lg mb-6">Personalized tutoring for all ages and levels. Start your journey to success today!</p>
+            <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-500">Get Started</a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="bg-gray-100 py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-4">About Us</h2>
+                <p class="max-w-2xl mx-auto">At Atlas Math Tutoring, we specialize in building confidence and mastery in mathematics. With years of experience, we tailor our approach to meet each student’s needs.</p>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="bg-white py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">Our Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="p-6 bg-gray-100 rounded shadow-md">
+                        <h3 class="text-xl font-bold mb-2">Algebra Tutoring</h3>
+                        <p>Master the fundamentals of algebra with personalized lessons.</p>
+                    </div>
+                    <div class="p-6 bg-gray-100 rounded shadow-md">
+                        <h3 class="text-xl font-bold mb-2">Calculus Help</h3>
+                        <p>Navigate complex concepts and excel in your courses.</p>
+                    </div>
+                    <div class="p-6 bg-gray-100 rounded shadow-md">
+                        <h3 class="text-xl font-bold mb-2">Test Prep</h3>
+                        <p>Achieve your best scores on standardized tests with expert guidance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-gray-100 py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+                <p class="mb-6">We’d love to hear from you! Reach out with questions or to schedule your first session.</p>
+                <form action="#" class="max-w-lg mx-auto space-y-4">
+                    <input type="text" placeholder="Your Name" class="w-full px-4 py-2 border rounded" required>
+                    <input type="email" placeholder="Your Email" class="w-full px-4 py-2 border rounded" required>
+                    <textarea placeholder="Your Message" class="w-full px-4 py-2 border rounded" rows="5" required></textarea>
+                    <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-500">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-4 text-center">
+        <p>&copy; 2025 Atlas Math Tutoring. All rights reserved.</p>
+    </footer>
+</body>
+</html>
